@@ -1,4 +1,4 @@
-type ServerRequestSchema = {
+interface ServerRequestSchema {
   url: string;
   token: string;
   mode: string;
@@ -8,6 +8,6 @@ type ServerRequestSchema = {
   server: string;
   accessToken: string;
   refreshToken: string;
-};
+}
 
 export type ServerRequest = Partial<ServerRequestSchema>;

@@ -9,8 +9,8 @@ export const apiGet = async (endpoint: String, req: ServerRequest) => {
     headers: {
       "Content-Type": "application/json",
     },
-  }).then((res) => {
-    return res.json();
+  }).then(async (res) => {
+    return await res.json();
   });
 
   return response;
@@ -24,8 +24,8 @@ export const apiPost = async (endpoint: String, req: ServerRequest) => {
       "Content-Type": "application/json",
     },
     body: JSON.stringify(req.body),
-  }).then((res) => {
-    return res.json();
+  }).then(async (res) => {
+    return await res.json();
   });
 
   return { response };

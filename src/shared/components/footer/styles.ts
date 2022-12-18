@@ -1,6 +1,6 @@
-import { colors } from '@app/styles/styles'
-import styled from 'styled-components'
-import { device } from '@app/shared/components/layout/layout'
+import { colors } from "@app/styles/styles";
+import styled from "styled-components";
+import { device } from "@app/shared/components/layout/layout";
 
 export const FooterContainer = styled.div`
   width: 100%;
@@ -13,7 +13,7 @@ export const FooterContainer = styled.div`
 
   background-color: ${colors.DARK};
   min-height: 20vh;
-`
+`;
 
 export const ContainerInner = styled.div`
   width: 100%;
@@ -27,4 +27,4 @@ export const ContainerInner = styled.div`
   }
   padding: 1em 0em 1em 0em;
   color: #ffffff;
-`
+`;

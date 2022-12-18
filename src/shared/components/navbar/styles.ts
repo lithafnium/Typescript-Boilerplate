@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { device } from '@app/shared/components/layout/layout'
+import styled from "styled-components";
+import { device } from "@app/shared/components/layout/layout";
 
 export const NavbarContainer = styled.header`
   width: 100%;
@@ -9,7 +9,7 @@ export const NavbarContainer = styled.header`
   /* justify-content: left; */
   z-index: 20;
   position: relative;
-`
+`;
 
 export const NavbarInner = styled.div`
   width: 100%;
@@ -24,7 +24,7 @@ export const NavbarInner = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-`
+`;
 
 export const Links = styled.div`
   @media ${device.mobileS} {
@@ -50,7 +50,7 @@ export const Links = styled.div`
   & a:visited {
     color: black;
   }
-`
+`;
 
 export const NavItem = styled.p`
   position: relative;
@@ -61,8 +61,8 @@ export const NavItem = styled.p`
   transition: 0.2s;
   width: fit-content;
   text-align: center;
-`
+`;
 
 export const Brand = styled.h1`
   color: #ffffff;
-`
+`;

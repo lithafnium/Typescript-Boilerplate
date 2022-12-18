@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { colors } from '@app/styles/styles'
+import styled from "styled-components";
+import { colors } from "@app/styles/styles";
 
 export const Input = styled.input<{ borderRadius?: string }>`
   background-color: #ffffff;
@@ -18,4 +18,4 @@ export const Input = styled.input<{ borderRadius?: string }>`
     border: 1px solid ${colors.PRIMARY};
     box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0.08);
   }
-`
+`;

@@ -7,3 +7,5 @@
 .pnp.js
 .env
 /build
+
+yarn.lock
