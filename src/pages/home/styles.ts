@@ -6,14 +6,16 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  // align-items: center;
   min-height: 100vh;
 
   // background-color: ${colors.TERNARY};
 `;
 
 export const ContainerInner = styled.div`
-  max-width: 992px;
+  max-width: 1080px;
 
   @media ${device.mobileS} {
     box-sizing: border-box;

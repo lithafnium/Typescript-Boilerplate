@@ -12,14 +12,16 @@ export const NavbarContainer = styled.header`
 `;
 
 export const NavbarInner = styled.div`
-  width: 100%;
+  max-width: 1080px;
+
   @media ${device.mobileS} {
+    box-sizing: border-box;
     width: 80%;
   }
 
   @media ${device.laptopM} {
+    padding: 0px 0px;
     width: 100%;
-    max-width: 1200px;
   }
   display: flex;
   align-items: center;
@@ -64,5 +66,5 @@ export const NavItem = styled.p`
 `;
 
 export const Brand = styled.h1`
-  color: #ffffff;
+  color: #2b3a55;
 `;
